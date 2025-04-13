@@ -1,0 +1,12 @@
+# config.example.toml
+# Configuration for PomoZen Timer
+# Copy this file to ~/.config/pomozen/config.toml (or appropriate user config dir)
+
+[durations]
+work = 1 # Work session duration in minutes
+short_break = 0.5 # Short break duration in minutes
+long_break = 1 # Long break duration in minutes
+
+[settings]
+long_break_interval = 4 # Number of work sessions before a long break
+sound_notification = true # Enable sound alert (requires 'playsound' potentially) - Currently only logs
