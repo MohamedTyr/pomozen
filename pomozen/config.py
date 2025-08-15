@@ -243,9 +243,7 @@ if __name__ == "__main__":
 
     print("\n--- Configuration After Updates (Reloaded) ---")
     reloaded_config = load_config()
-    show_config(
-        reloaded_config
-    )  # You'd need to import show_config from display for this test
+    show_config(reloaded_config)
 
     # print("\nConfig file path:", get_config_path())
     # create_default_config(get_config_path()) # Test creation
